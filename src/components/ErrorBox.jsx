@@ -4,7 +4,7 @@ export default function ErrorBox({ title, message, onConfirm }) {
       <h2>{title}</h2>
       <p>{message}</p>
       {onConfirm && (
-        <div id="confirmation-action">
+        <div id="confirmation-actions">
           <button onClick={onConfirm} className="button">
             Okay
           </button>
